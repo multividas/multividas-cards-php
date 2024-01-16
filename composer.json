@@ -1,0 +1,42 @@
+{
+    "name": "multividas/multividas-cards-php",
+    "description": "Build Multividas Cards markup in a PHP object",
+    "keywords": [
+        "multividas-cards-php"
+    ],
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "multividas inc",
+            "email": "contact@multividas.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Multividas\\MultividasCard\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Multividas\\MultividasCard\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests/Feature",
+        "php-psr": [
+            "./vendor/bin/phpcs --standard=PSR2 --encoding=utf-8 --extensions=php src/* tests/*"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "4.0.x-dev",
+        "phpunit/phpunit": "9.6.x-dev"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
