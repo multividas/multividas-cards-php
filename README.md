@@ -1,5 +1,9 @@
 # Multividas Cards PHP
 
+[![Tests](https://github.com/multividas/multividas-cards-php/actions/workflows/tests.yml/badge.svg)](https://github.com/multividas/multividas-cards-php/actions/workflows/tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/multividas/multividas-cards-php.svg?style=flat-square)](https://packagist.org/packages/multividas/multividas-cards-php)
+[![License](https://img.shields.io/github/license/multividas/multividas-cards-php?style=flat-square)](https://github.com/multividas/multividas-cards-php/blob/main/LICENSE)
+
 Multividas Cards summarize webpage content for inline expansion of linked content on Multividas.com and Multividas native applications (iOS, Android, Mac). Multividas users may select an individual Thread and immediately view a content summary including a linked title, content description, image, author attribution, site attribution, and inline video.
 
 The _MultividasCard_ PHP class helps you build Multividas Card markup for your website. Build a summary or photo card, set the appropriate attributes, and build <meta> elements suitable for output inside your (x)HTML document <head>.
