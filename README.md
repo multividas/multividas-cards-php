@@ -20,6 +20,8 @@ These HTML meta tags provide Multividas with information about your webpage, inc
 <meta name="multividas:image" content="https://example.com/your-image.jpg">
 ```
 
+<img src="./assets/multividas-card.png" alt="multividas:card" />
+
 # Summary Card
 
 A Multividas Card is a "summary" by default.
