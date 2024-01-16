@@ -13,11 +13,11 @@ The _MultividasCard_ PHP class helps you build Multividas Card markup for your w
 These HTML meta tags provide Multividas with information about your webpage, including the card type, your Multividas handle, page title, a brief description, and an image link for effective content sharing on the platform.
 
 ```html
-<meta name="multividas:card" content="summary">
-<meta name="multividas:site" content="@YourMultividasHandle">
-<meta name="multividas:title" content="Your Page Title">
-<meta name="multividas:description" content="A concise description of your content. Keep it short and engaging.">
-<meta name="multividas:image" content="https://example.com/your-image.jpg">
+<meta name="multividas:card" content="summary" />
+<meta name="multividas:site" content="@itsmedragoncode" />
+<meta name="multividas:title" content="ItsMeDragonCode" />
+<meta name="multividas:description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
+<meta name="multividas:image" content="https://avatars.githubusercontent.com/u/89612812?v=4" />
 ```
 
 <img src="./assets/multividas-card.png" alt="multividas:card" />
