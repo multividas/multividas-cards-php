@@ -215,7 +215,7 @@ class MultividasCard
             return null;
         }
 
-        $username = '@' . trim($username);
+        $username = ltrim(trim($username), '@');
 
         return $username;
     }
