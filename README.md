@@ -8,6 +8,13 @@ Multividas Cards summarize webpage content for inline expansion of linked conten
 
 The _MultividasCard_ PHP class helps you build Multividas Card markup for your website. Build a summary or photo card, set the appropriate attributes, and build <meta> elements suitable for output inside your (x)HTML document <head>.
 
+## Installation
+Require this package with composer. It is recommended to only require the package for development.
+
+```shell
+composer require multividas/multividas-cards-php --dev
+```
+
 # Multividas Card meta tags
 
 These HTML meta tags provide Multividas with information about your webpage, including the card type, your Multividas handle, page title, a brief description, and an image link for effective content sharing on the platform.
