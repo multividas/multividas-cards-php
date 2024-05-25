@@ -1,0 +1,51 @@
+{
+    "name": "multividas/multividas-cards-php",
+    "type": "package",
+    "license": "MIT",
+    "description": "Build Multividas Cards markup in a PHP object",
+    "keywords": [
+        "multividas",
+        "multividas-cards-php"
+    ],
+    "authors": [
+        {
+            "name": "Multividas",
+            "email": "multividasdotcom@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Multividas\\MultividasCard\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Multividas\\MultividasCard\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests/Feature",
+        "php-psr": [
+          "find src -type f -name \"*.php\" -print0 | xargs -0 -n1 php -lf",
+          "vendor/bin/php-cs-fixer fix --allow-risky=yes src --rules=declare_strict_types,@PSR12",
+          "./vendor/bin/phpcs --standard=PSR2 --encoding=utf-8 --extensions=php src/*"
+        ]
+    },
+    "require": {
+        "php": "^8.2"
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "4.0.x-dev",
+        "phpunit/phpunit": "9.6.x-dev",
+        "orchestra/testbench": "8.x-dev",
+        "friendsofphp/php-cs-fixer": "dev-master"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "support": {
+        "issues": "https://github.com/multividas/multividas-cards-php/issues",
+        "source": "https://github.com/multividas/multividas-cards-php"
+    }
+}
